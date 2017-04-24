@@ -34,6 +34,6 @@ if(os.path.exists(absystem_target_path)):
     shutil.rmtree(absystem_target_path)
 
 print("Copy new ABSystem")
-#shutil.copytree(absystem_source_path,absystem_target_path,False)
+shutil.copytree(absystem_source_path,absystem_target_path,False)
 raw_input()
 raw_input()

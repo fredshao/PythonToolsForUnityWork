@@ -26,14 +26,14 @@ else:
     print("Unity3DGameLibEditor.dll not exists")
 
 
-absystem_source_path = r'../Plugins/ABSystem/Assets/ABSystem'
-absystem_target_path = r'../WarX_Client/Assets/Plugins/ABSystem'
+#absystem_source_path = r'../Plugins/ABSystem/Assets/ABSystem'
+#absystem_target_path = r'../WarX_Client/Assets/Plugins/ABSystem'
 
-if(os.path.exists(absystem_target_path)):
-    print("Delete old ABSystem")
-    shutil.rmtree(absystem_target_path)
+#if(os.path.exists(absystem_target_path)):
+#    print("Delete old ABSystem")
+#    shutil.rmtree(absystem_target_path)
 
-print("Copy new ABSystem")
-shutil.copytree(absystem_source_path,absystem_target_path,False)
-raw_input()
-raw_input()
+#print("Copy new ABSystem")
+#shutil.copytree(absystem_source_path,absystem_target_path,False)
+#raw_input()
+#raw_input()
